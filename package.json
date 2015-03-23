@@ -1,0 +1,35 @@
+{
+  "name": "ubiapps-api-picoBridge",
+  "publishConfig": {
+    "tag": "alpha"
+  },
+  "description": "ubiapps bridge from webinos to picosec",
+  "keywords": [
+    "ubiapps",
+    "picosec",
+    "API"
+  ],
+  "version": "0.0.1",
+  "homepage": "http://ubiapps.com/",
+  "author": "Toby Ealden <toby.ealden@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ubiapps/ubiapps-api-picoBridge.git"
+  },
+  "bugs": {
+    "email": "bugs@ubiapps.com"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "main": "./lib/rpc_picoBridge.js",
+  "dependencies": {
+    "buffers": "~0.1.1"
+  },
+  "bundleDependencies": [],
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "BSD-2-Clause"
+}
