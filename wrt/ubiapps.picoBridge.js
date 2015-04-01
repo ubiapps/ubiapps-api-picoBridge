@@ -13,6 +13,7 @@
     this.subscribe = subscribe;
     this.unsubscribe = unsubscribe;
     this.getCurrent = getCurrent;
+    this.setCurrent = setCurrent;
     this._subscribeIds = {};
 
     if (typeof bindCB.onBind === 'function') {
@@ -68,4 +69,9 @@
   function getCurrent(success, fail) {
     doRPC.call(this,"getCurrent",[],success,fail);
   }
+
+  function setCurrent(val, success, fail) {
+    doRPC.call(this,"setCurrent",[val],success,fail);
+  }
+
 }());
